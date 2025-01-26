@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@import url("https://v1.fontapi.ir/css/Estedad");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  font-family: estedad;
+}
+
+
+video{
+  border-radius: 8px;
+  margin: 30px;
+}
+.vid{
+  width: 500px;
+}
