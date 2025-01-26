@@ -29,6 +29,43 @@ header {
   padding: 26px;
   float: right;
 }
-.motto{
+.motto {
   float: right;
+  padding: 40px 0 0 120px;
+  color: azure;
 }
+.motto h3,
+.motto h4 {
+  font-weight: 900;
+}
+
+.search .icon {
+  background-image: url(../img/search.png);
+  background-color: greenyellow;
+  height: 40px;
+  width: 40px;
+  float: left;
+
+  border-radius: 10px 0 0 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.search input {
+  height: 40px;
+  width: 300px;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  outline: none;
+
+  padding-right: 5px;
+  background-color: green;
+  color: aliceblue;
+}
+.search input::placeholder {
+  color: aliceblue;
+}
+.search {
+  float: left;
+  padding: 50px 0 0 120px;
+}
+
